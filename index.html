@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Crud Operation</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<main>
+		<header>
+			<h1>Contact Details</h1>
+		</header>
+		<section>
+			<table>
+				<tr>
+					<td>
+						<form action="" autocomplete="off" onsubmit="onFormSubmit()">
+							<section>
+								<label for="contactName">Contact Name:</label>
+								<br>
+								<input type="text" placeholder="Enter your name" name="contact-name" id="contactName" required>
+							</section>
+							<br>
+							<section>
+								<label for="contactTel">Contact Telephone:</label>
+								<br>
+								<input type="tel" name="email" id="contactTel" placeholder="Enter your number"
+					>
+							</section>
+							<br>
+							<section>
+								<label for="contactEmail">Contact Email:</label>
+								<br>
+								<input type="email" required placeholder="Enter your email" name="email" id="contactEmail">
+							</section>
+							<br>
+							<section class="form_action--button">
+								<input type="submit" value="Submit">
+								<input type="reset" value="Reset">
+							</section>
+						</form>
+					</td>
+				</tr>
+			</table>
+		</section>
+		<br>
+		<section >
+			<td class="list-one">
+				<table class="list" id="storeList">
+					<thead>
+						<tr class="list-one">
+							<th>Contact Names</th>
+							<th>Contact Telephone</th>
+							<th>Contact Email</th>
+						</tr>
+					</thead>
+					<tbody>
+						
+					</tbody>
+				</table>
+			</td>
+		</section>
+	</main>
+<script src="app1.js"></script>
+</body>
+
+</html>

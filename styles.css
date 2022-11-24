@@ -1,0 +1,85 @@
+body{
+  background-color:rgb(251, 246, 246);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+h1{ 
+  text-align: center;
+  background-color: rgb(16, 38, 76);
+  color: rgb(240, 248, 255);
+  border: 1px solid rgb(200, 204, 211);
+}
+
+h2 { 
+  text-align: center;
+  background-color: rgb(16, 38, 76);
+  color: rgb(240, 248, 255);
+  border: 1px solid rgb(200, 204, 211);
+}
+
+
+
+label{
+ color: rgb(16, 38, 76);
+}
+
+table{
+  width: 80%;
+  margin:40px auto;
+}
+
+ table.list{
+  text-align: center;
+  width: 100%;
+ }
+
+ .list{
+  border: 1px solid rgb(200, 204, 211);
+ }
+
+ .list-one{
+  border: 1px solid rgb(200, 204, 211);
+  margin-top:0;
+ }
+
+ td{
+  border: 1px solid rgb(200, 204, 211);
+  text-align: left;
+  padding: 10px 15px;
+ }
+
+ tr:nth-child(even),table.list thead> tr{
+  background-color: rgb(16, 38, 76);
+  color: rgb(240, 248, 255);
+ }
+
+ input[type="text"],input[type="tel"],input[type="email"]{
+  width: 91%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid rgb(240, 248, 255);
+  background-color: rgb(200, 204, 211);;
+  border-radius: 4px;
+ }
+
+ input[type="submit"],input[type="reset"]{
+  background-color: rgb(40, 55, 82);
+  color: rgb(240, 248, 255);
+  padding: 6px  12px;
+  margin: 15px 0 10px;
+  display: inline-block;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+ }
+
+ input[type="submit"]:hover,input[type="reset"]:hover{
+  opacity: 0.7;
+  transition: all ease 0.3s;
+
+ }
